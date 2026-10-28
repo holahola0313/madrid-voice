@@ -19,8 +19,15 @@ results/metrics.json 是原72行聚合指标的逐字节副本，没有逐条人
 公开副本实测：6项SQL与10项规则测试全部通过，五个真实示例读取成功；自动文本扫描未发现私人Windows路径或常见凭据格式，pad_token属于模型填充标记。
 
 
-## 2026-10-28 上传状态
 
-已创建公开仓库 https://github.com/holahola0313/madrid-voice 。GitHub连接器能读取仓库，但create_file/create_blob返回403 Resource not accessible by integration；installed_accounts为空。本地Git推送连接被重置，没有确认上传成功。待用户将GitHub应用授权到该新仓库后继续提交，不能把空仓库写成已发布。
+## 2026-10-28 发布完成
 
-本地发布副本为相邻的madrid-voice-github目录，main分支，origin已设置，71个审查后的文件。作者原项目不初始化Git，以免误上传私有数据。发布范围、测试及完整网页不可直接克隆运行的限制见README、RUN_LOCAL和RELEASE_AUDIT。
+仓库：https://github.com/holahola0313/madrid-voice （holahola0313 个人账号，公开，main）。用户已安装并授权 ChatGPT Codex Connector 到此仓库；此前403已解决。通过GitHub连接器上传了71个审查后的文件：源码、SQL、配置、选入脚本、测试、依赖、README、运行/许可说明、3张最新截图、5个真实短片段示例与72行聚合评估。
+
+首批完整发布提交：3214c4234ef645dcedcbc54eba24fab9776bc18e。其Git树为0d1439b31a997d3d618b071cc1868cbba7e7159c，与本地发布副本git write-tree完全相同，验证全部71个文件路径、模式和内容一致。远端main已存在，README已回读核对。后续本次提交仅更新发布记录。
+
+验证：作者原项目38项软件测试通过（12.689秒）；公开副本6项SQL与10项规则测试通过，5条真实示例读取成功；原冻结校验通过；应用、配置、SQL、原聚合评估副本逐字节保持一致。没有重装独立环境、重新下载官方快照、重跑模型或新增人工标注。
+
+公开短片段可通过python examples/read_cases.py读取。完整网页仍需作者私有SQLite与冻结人工输入，不能克隆即启动；来源重建步骤不能重新生成作者人工判断，详情见RUN_LOCAL.md。数据来源及CC BY 4.0保留。没有公网部署、企业合作或真实业务效果；模型漏判和单人参考标注限制保留。
+
+私有数据库、完整评论、Excel、ID映射、模型权重、凭据、下载及历史演示材料未上传。原工作目录保留不初始化Git；相邻madrid-voice-github为本地发布副本，origin已设置。本次使用连接器创建远端提交，本地发布提交历史独立；未来使用Git推送前，先正常fetch并核对远端历史，不要强制覆盖远端。
