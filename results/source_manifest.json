@@ -1,0 +1,18 @@
+[
+  {
+    "file": "listings.csv.gz",
+    "url": "https://data.insideairbnb.com/spain/comunidad-de-madrid/madrid/2026-09-17/data/listings.csv.gz",
+    "snapshot": "2026-09-17",
+    "bytes": 11812658,
+    "sha256": "df7566e731727cd07925e8ad70e17e1f53ec5ac354e9e1ac2ada44c871aa4082",
+    "verified_at_utc": "2026-10-13T08:12:50.751647+00:00"
+  },
+  {
+    "file": "reviews.csv.gz",
+    "url": "https://data.insideairbnb.com/spain/comunidad-de-madrid/madrid/2026-09-17/data/reviews.csv.gz",
+    "snapshot": "2026-09-17",
+    "bytes": 174120869,
+    "sha256": "f276094a009946aad5ba1fdcd560219a80997ad9e472274d70c3af73f20f2d29",
+    "verified_at_utc": "2026-10-13T08:13:18.987828+00:00"
+  }
+]

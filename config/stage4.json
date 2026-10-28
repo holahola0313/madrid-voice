@@ -1,0 +1,15 @@
+{
+  "version": "annotation-prep-v1.0",
+  "seed": 20261016,
+  "candidate_n": 3763,
+  "pilot_n": 30,
+  "reserve_n": 270,
+  "planned_development_n": 170,
+  "planned_test_n": 100,
+  "near_duplicate_char_ngram": 3,
+  "near_duplicate_jaccard": 0.85,
+  "near_duplicate_min_characters": 40,
+  "pilot_max_characters": 1200,
+  "guideline_status": "draft_awaiting_human_pilot",
+  "split_status": "pilot_reserved_formal_dev_test_not_released"
+}

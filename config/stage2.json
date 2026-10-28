@@ -1,0 +1,13 @@
+{
+  "pipeline_version": "stage2-v1.0.0",
+  "snapshot": "2026-09-17",
+  "start_date": "2025-09-01",
+  "end_date": "2026-08-31",
+  "text_limit": 10000,
+  "min_reviews": 100,
+  "min_listings": 20,
+  "min_topic_mentions": 30,
+  "language_policy": "stage1-es_candidate-unvalidated",
+  "duplicate_policy": "quarantine-all-cross-listing-review-ids",
+  "text_policy": "reuse-stage1-text-no-new-nlp"
+}

@@ -1,0 +1,151 @@
+[
+  {
+    "case": "TS008",
+    "name": "空调异响",
+    "excerpt": "lo unico el aire acondicionado que tenia un ruido extraño, de resto todo perfecto",
+    "context": [],
+    "translation": "唯一的问题是空调有奇怪的噪声，除此之外一切都很好。",
+    "translation_status": "AI辅助翻译 · 尚未经作者复核 · 以西语原文为准",
+    "labels": {
+      "facilities": {
+        "人工参考": {
+          "mention_status": "present",
+          "sentiment": "negative"
+        },
+        "关键词规则": {
+          "mention_status": "present",
+          "sentiment": "uncertain"
+        },
+        "本地AI": {
+          "mention_status": "present",
+          "sentiment": "positive"
+        }
+      },
+      "noise": {
+        "人工参考": {
+          "mention_status": "present",
+          "sentiment": "negative"
+        },
+        "关键词规则": {
+          "mention_status": "present",
+          "sentiment": "negative"
+        },
+        "本地AI": {
+          "mention_status": "uncertain",
+          "sentiment": "uncertain"
+        }
+      }
+    },
+    "check": "核对空调异响发生的时段、运行模式与来源，确认设备是否需要维护。",
+    "action": "若现场确认异常，安排检修并记录复测结果；若未复现，补充运行条件后再排查。"
+  },
+  {
+    "case": "TS004",
+    "name": "房间采光",
+    "excerpt": "Si es pequeño, no le entra mucha luz, pero las fotos y la descripción son claras y si lo dice",
+    "context": [
+      [
+        "bonito adentro, tampoco pasas frío",
+        "内部好看，也不会觉得冷。"
+      ]
+    ],
+    "translation": "房间确实小、采光不多，不过照片和描述很清楚，也确实说明了这一点。",
+    "translation_status": "AI辅助翻译 · 尚未经作者复核 · 以西语原文为准",
+    "labels": {
+      "facilities": {
+        "人工参考": {
+          "mention_status": "present",
+          "sentiment": "mixed"
+        },
+        "关键词规则": {
+          "mention_status": "absent",
+          "sentiment": "not_applicable"
+        },
+        "本地AI": {
+          "mention_status": "absent",
+          "sentiment": "not_applicable"
+        }
+      }
+    },
+    "check": "核对房间朝向、自然采光与页面照片、描述是否一致。",
+    "action": "若描述不充分，补充白天实拍与采光说明；若实际照明不足，再评估补充灯具。"
+  },
+  {
+    "case": "TS021",
+    "name": "没有电梯",
+    "excerpt": "El espacio es pequeño pero cómodo para 2 personas, lamentablemente no tiene elevador",
+    "context": [],
+    "translation": "空间虽小，但两个人住还算舒适；遗憾的是没有电梯。",
+    "translation_status": "AI辅助翻译 · 尚未经作者复核 · 以西语原文为准",
+    "labels": {
+      "facilities": {
+        "人工参考": {
+          "mention_status": "present",
+          "sentiment": "mixed"
+        },
+        "关键词规则": {
+          "mention_status": "present",
+          "sentiment": "neutral"
+        },
+        "本地AI": {
+          "mention_status": "uncertain",
+          "sentiment": "uncertain"
+        }
+      }
+    },
+    "check": "核对楼层、电梯配置，以及预订前是否明确告知搬运行李的条件。",
+    "action": "若确实无电梯且说明不足，补充醒目的楼层与无电梯提示，并说明可提供的搬运协助。"
+  },
+  {
+    "case": "TS029",
+    "name": "电视功能不符预期",
+    "excerpt": "la única pega que la tele no era SmartTV",
+    "context": [],
+    "translation": "唯一的不足是电视不是智能电视。",
+    "translation_status": "AI辅助翻译 · 尚未经作者复核 · 以西语原文为准",
+    "labels": {
+      "facilities": {
+        "人工参考": {
+          "mention_status": "present",
+          "sentiment": "negative"
+        },
+        "关键词规则": {
+          "mention_status": "absent",
+          "sentiment": "not_applicable"
+        },
+        "本地AI": {
+          "mention_status": "absent",
+          "sentiment": "not_applicable"
+        }
+      }
+    },
+    "check": "核对实际电视功能、页面设施说明与住客预期。",
+    "action": "若描述造成误解，明确电视是否支持联网和投屏；是否升级设备需另行评估成本与需求。"
+  },
+  {
+    "case": "TS006",
+    "name": "“安静”还是氛围舒适？",
+    "excerpt": "en un sector tranquilo",
+    "context": [],
+    "translation": "位于一个安静／平和的区域。",
+    "translation_status": "AI辅助翻译 · 尚未经作者复核 · 以西语原文为准",
+    "labels": {
+      "noise": {
+        "人工参考": {
+          "mention_status": "uncertain",
+          "sentiment": "uncertain"
+        },
+        "关键词规则": {
+          "mention_status": "present",
+          "sentiment": "positive"
+        },
+        "本地AI": {
+          "mention_status": "absent",
+          "sentiment": "not_applicable"
+        }
+      }
+    },
+    "check": "如运营确需了解声环境，进一步核实是否涉及声音、时段或睡眠体验。",
+    "action": "仅在获得明确声环境证据后考虑措施；不能凭这句模糊表达安排维修。"
+  }
+]

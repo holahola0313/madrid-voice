@@ -1,0 +1,10 @@
+{
+  "version": "group-split-v1.0",
+  "seed": 20261017,
+  "pilot_n": 30,
+  "development_n": 170,
+  "test_n": 100,
+  "guideline_version": "v1.0",
+  "evaluation_protocol_version": "v1.0",
+  "test_release_requires": ["development_human_annotation_complete", "method_and_predictions_frozen"]
+}

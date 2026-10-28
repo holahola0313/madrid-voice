@@ -1,0 +1,14 @@
+{
+  "rules_version": "rules-v1.0.0",
+  "ai_version": "minilm-prototypes-v1.0.0",
+  "ai_method": "local_minilm_prototypes",
+  "ai_present_threshold": 0.52,
+  "ai_uncertain_threshold": 0.40,
+  "ai_sentiment_margin": 0.06,
+  "max_clause_characters": 240,
+  "max_tokens": 128,
+  "batch_size": 32,
+  "cpu_threads": 4,
+  "threshold_status": "heuristic_not_calibrated_on_human_labels",
+  "validation_status": "unvalidated"
+}

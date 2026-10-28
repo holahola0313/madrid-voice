@@ -1,0 +1,2 @@
+# Read and validate user-filled annotation workbooks; does not author them.
+openpyxl==3.1.5

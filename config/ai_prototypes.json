@@ -1,0 +1,32 @@
+{
+  "cleanliness": {
+    "positive": ["El alojamiento estaba muy limpio e impecable.", "Las sábanas y el baño estaban limpios."],
+    "negative": ["El apartamento estaba sucio y había polvo y manchas.", "La limpieza era deficiente y había moho."],
+    "neutral": ["La limpieza se realiza una vez por semana.", "Había servicio de limpieza durante la estancia."]
+  },
+  "noise": {
+    "positive": ["No se oía ningún ruido y pudimos dormir tranquilamente.", "El alojamiento era silencioso y estaba bien insonorizado."],
+    "negative": ["Había mucho ruido de la calle y no pudimos dormir.", "Se escuchaba todo lo que hacían los vecinos."],
+    "neutral": ["La reseña menciona el nivel de ruido.", "Las ventanas dan a una calle con tráfico."]
+  },
+  "checkin": {
+    "positive": ["El proceso de entrada fue fácil y rápido.", "Recogimos las llaves sin problemas y las instrucciones eran claras."],
+    "negative": ["Tuvimos problemas para entrar y esperamos mucho por las llaves.", "Las instrucciones de llegada eran confusas y el check-in fue complicado."],
+    "neutral": ["Las llaves se recogen en una caja y la entrada es a las tres.", "El check-in se realiza en recepción."]
+  },
+  "facilities": {
+    "positive": ["La cama era cómoda y la cocina estaba bien equipada.", "El wifi, la ducha y el aire acondicionado funcionaban bien."],
+    "negative": ["El wifi no funcionaba y no había agua caliente.", "La cama era incómoda y el ascensor estaba averiado."],
+    "neutral": ["Hay cocina, baño, cama y conexión wifi.", "El edificio dispone de ascensor y calefacción."]
+  },
+  "communication": {
+    "positive": ["El anfitrión fue amable y respondió rápidamente a los mensajes.", "La comunicación fue excelente y nos ayudaron con todas las dudas."],
+    "negative": ["El anfitrión no respondió a los mensajes y fue grosero.", "La comunicación fue mala y tardaron mucho en contestar."],
+    "neutral": ["Nos comunicamos con el anfitrión por mensajes.", "El contacto con el alojamiento fue por teléfono."]
+  },
+  "location": {
+    "positive": ["La ubicación es excelente, céntrica y cerca del metro.", "El apartamento está bien situado y se puede ir andando a todo."],
+    "negative": ["El alojamiento está lejos del centro y mal comunicado.", "La zona es insegura y la ubicación no es conveniente."],
+    "neutral": ["El alojamiento se encuentra junto a una estación de metro.", "La dirección está en un barrio de Madrid."]
+  }
+}

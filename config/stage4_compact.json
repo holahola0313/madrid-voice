@@ -1,0 +1,13 @@
+{
+  "version": "compact-scope-v1.0",
+  "adopted_on": "2026-10-17",
+  "reason": "Reduce human annotation workload for the first portfolio version, as discussed with the user.",
+  "pilot_n": 30,
+  "development_ids": ["DV001", "DV002", "DV003", "DV004", "DV005", "DV006", "DV007", "DV008", "DV009", "DV010", "DV011", "DV012", "DV013", "DV014", "DV015", "DV016", "DV017", "DV018", "DV019", "DV020"],
+  "test_n": 30,
+  "test_selection": "First 30 TS identifiers in the already randomized, frozen 100-review test allocation; no selection by text, labels, or model output.",
+  "inactive_development_n": 150,
+  "inactive_test_n": 70,
+  "guideline_version": "v1.0",
+  "protocol_version": "v1.1-compact"
+}

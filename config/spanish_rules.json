@@ -1,0 +1,32 @@
+{
+  "cleanliness": {
+    "mention": "\\b(limpi\\w*|suci\\w*|higien\\w*|impecable|reluciente|polvo|manchas?|moho|sabanas?|cucarachas?)\\b",
+    "positive": "\\b(limpi[oa]s?|impecable|reluciente|higienic[oa])\\b",
+    "negative": "\\b(suci[oa]s?|polvo|manchas?|moho|cucarachas?|insalubre)\\b|falta de limpieza"
+  },
+  "noise": {
+    "mention": "\\b(ruid\\w*|silenci\\w*|insonoriz\\w*|escucha\\w*|oye|oyen|tranquil\\w*)\\b",
+    "positive": "\\b(silencios[oa]s?|tranquil[oa]s?)\\b|bien insonorizad[oa]",
+    "negative": "\\b(ruido|ruidos[oa]s?|escandalo|gritos)\\b|mal insonorizad[oa]|se (oye|escucha) todo"
+  },
+  "checkin": {
+    "mention": "check[ -]?(in|out)|\\b(llaves?|llegada|entrada|recepcion|registro)\\b",
+    "positive": "(check[ -]?in|entrada|llegada|registro).{0,25}(facil|rapida|sencill|flexible)|facil.{0,20}(entrar|acceso|llegar)|instrucciones claras",
+    "negative": "(check[ -]?in|entrada|llegada|llaves?).{0,30}(dificil|complicad|confus|problema|espera)|espera\\w*.{0,30}(llaves?|entrar)|no pudimos entrar"
+  },
+  "facilities": {
+    "mention": "\\b(wifi|internet|cama\\w*|colchon\\w*|ducha\\w*|bano\\w*|cocina\\w*|ascensor|aire acondicionado|calefaccion|agua caliente|equipad\\w*|instalacion\\w*|toallas?)\\b",
+    "positive": "\\b(comod[oa]s?|equipad[oa]s?|funciona|funcionaba|moderno|moderna)\\b|buena presion",
+    "negative": "\\b(rot[oa]s?|averiad\\w*|incomod[oa]s?|estropead\\w*)\\b|no (habia|hay|funciona|funcionaba)|sin agua caliente|agua fria|wifi lento|cama dura"
+  },
+  "communication": {
+    "mention": "\\b(comunicacion|comunicar\\w*|responde\\w*|respondio|respuesta\\w*|atencion|amable\\w*|atent[oa]s?|anfitrion\\w*|mensajes?|contacto)\\b",
+    "positive": "\\b(amable\\w*|atent[oa]s?|servicial\\w*)\\b|respuest\\w*.{0,15}rapid|respond\\w*.{0,15}rapid|buena comunicacion|comunicacion.{0,15}(buena|excelente|facil|fluida)",
+    "negative": "\\b(groser[oa]s?|antipatic\\w*)\\b|no (respond\\w*|contest\\w*)|mala comunicacion|sin respuesta|tard\\w*.{0,20}(respond|contest)"
+  },
+  "location": {
+    "mention": "\\b(ubicacion|ubicad\\w*|localizacion|localizad\\w*|centrico\\w*|centrica\\w*|centro|metro|barrio|zona|cerca|lejos|conectad\\w*)\\b",
+    "positive": "\\b(centric[oa]s?|cerca|accesible)\\b|bien (ubicad|conectad|situad)|ubicacion.{0,18}(buena|excelente|perfecta|ideal)|(?:buena|excelente|perfecta).{0,12}ubicacion",
+    "negative": "\\b(lejos|alejad[oa]s?|insegur[oa]s?|peligros[oa]s?)\\b|mal (ubicad|conectad)|mala ubicacion"
+  }
+}
